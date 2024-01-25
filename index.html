@@ -185,7 +185,7 @@
                 <h2 class="titulo"> Fale <span> comigo </span></h2>
 
                 <form method="POST" action="https://formsubmit.co/larissafsantos.685@gmail.com">
-                    <input type="hidden" name="_next" value="obrigado.html">
+                    <input type="hidden" name="_next" value="https://larifsantos685.github.io/obrigado.html">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="text" name="nome" id="nome" placeholder="Seu nome: *" required>
                     <input type="email" name="email" id="email" placeholder="Seu email: *" required>
@@ -250,6 +250,17 @@
         }
 
     </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+           const urlParams = new URLSearchParams(window.location.search);
+     
+           // Verificar se há um parâmetro de sucesso na URL
+           if (urlParams.has('success')) {
+              // Redirecionar para a página obrigado.html
+              window.location.href = 'https://larifsantos685.github.io/obrigado.html';
+           }
+        });
+     </script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <script src="js/scroll.js"></script>
     <script src="js/efeito.js"></script>
