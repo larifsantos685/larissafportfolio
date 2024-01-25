@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset='utf-8'>
+    <title>Larissa F - Portifólio </title>
+    <!-- bootstrap icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- fim bootstrap icons -->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <script src='js/main.js' defer></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://kit.fontawesome.com/f94be7af62.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="interface">
+            <!--logo do canto-->
+            <div class="logo">
+                <span class="principal"> Larissa <span style="color:blueviolet"> Santos </span></span> </span>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#sobre">Sobre mim</a></li>
+
+                    <li><a href="#portifolio">Projetos</a></li>
+                </ul>
+            </nav> <!-- final nav menu desktop-->
+       
+            <!-- modo escuro e modo claro -->
+            <div>
+                <input type="checkbox" name="chance-theme" id="change-theme">
+                <label for="change-theme">
+                    <i class="bi bi-sun"></i>
+                    <i class="bi bi-moon"></i>
+                </label>
+            </div>
+
+            <div class="btn-contato">
+                <a href="#contato">
+                    <button>Contato</button>
+                </a>
+            </div> <!-- div final btn contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div> <!-- fim btn fechar-->
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre">Sobre mim</a></li>
+                        <li><a href="#portifolio">Projetos</a></li>
+                        <div class="trilho">
+                            <div class="indicador"></div>
+                        </div>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav> <!-- final nav menu mobile-->
+
+            </div><!-- fim menu-mobile-->
+
+            <div class="overlay-menu" id="overlay-menu">
+
+
+            </div>
+
+        </div> <!-- acaba a interface-->
+    </header>
+
+
+    <main>
+        <article>
+            <button class="voltar-topo" onclick="backTop()">
+                <img src="img/circle-arrow-up-solid.svg" alt="">
+            </button>
+        </article>
+        <section class="topo-do-site" id="inicio">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <span class="detalhe-topo"> Olá! Eu sou </span>
+                        <h1> <span class="typed-text"></span><span class="cursor">&nbsp;</span> </h1>
+                        <p class="txt-cllr-topo">Tenho 18 anos e sou apaixonada por tecnologia, programação e por
+                            aprender coisas novas. Sou formada na Etec Dra. Ruth Cardoso em Técnico em Desenvolvimento
+                            de Sistemas e atualmente sou estudante de Sistemas para Internet na Fatec Baixada Santista.
+                        </p>
+
+
+                        <div class="btn-social redes">
+                            <a href="https://github.com/larifsantos685" target="_blank"><button class="github"><i
+                                        class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/larissafsantos685/" target="_blank"><button
+                                    class="linkedin"><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://drive.google.com/file/d/1ViMX_xL49wis3LhWCXThub3qcJqjgCD7/view?usp=sharing"
+                                target="_blank"><button><i class="bi bi-file-earmark-text"></i></button></a>
+                        </div> <!-- fim btn -->
+                    </div> <!-- txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="img/larissafpersook.png" alt="Imagem Larissa Santos">
+                    </div><!-- fim img topo do site-->
+                </div> <!-- div flex -->
+            </div> <!-- fim da interface -->
+        </section> <!-- fim do topo do site -->
+
+        <section class="sobre" id="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="img/larissafpersook.png" alt="">
+
+                    </div><!-- img sobre -->
+
+
+                    <div class="txt-sobre">
+
+
+                        <h2> Muito prazer, <span> Sou Larissa </span></h2>
+
+                        <p>Iniciei minha jornada em desenvolvimento de software no segundo semestre de 2021, durante o
+                            curso técnico. Me identifico como desenvolvedora Full-Stack, pois gosto muito da harmonia
+                            entre design e as funcionalidades de um programa, já tive a oportunidade e amo desenvolver
+                            ambas. Ao longo do tempo de estudos programei além das linguagens abaixo, em C# e C++. Estou
+                            sempre aberta e disposta a aprender coisas novas e adquirir habilidades, tanto
+                            socioemocionais quanto profissionais, aprecio muito a oportunidade de crescimento constante!
+                        </p>
+                        <div class="btn-social">
+                            <button class="html-icon"><i class="fa-brands fa-html5"></i></i></button>
+                            <button class="css-icon"><i class="fa-brands fa-css3-alt"></i></button>
+                            <button class="js-icon"><i class="fa-brands fa-js"></i></button>
+                            <button class="php-icon"><i class="fa-brands fa-php"></i></button>
+                            <button class="sql-icon"><i class="bi bi-database"></i></button>
+
+
+
+
+                        </div> <!-- fim btn -->
+
+                    </div> <!-- txt sobre-->
+                </div> <!--flex -->
+            </div> <!--fim interface -->
+        </section> <!--fim classe sobre -->
+
+        <section class="portifolio" id="portifolio">
+
+
+            <div class="interface">
+                <h2 class="titulo"> Meu <span>Portifolio </span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(img/orthohand.png);">
+                        <div class="overlay"> Orthohand</div> <!-- fim overlay-->
+                    </div>
+                    <div class="img-port" style="background-image: url(img/aumigosdarua.png);">
+                        <div class="overlay"> Aumigos da rua </div> <!-- fim overlay-->
+                    </div>
+                    <div class="img-port" style="background-image: url(img/Arngreen.jpeg);">
+                        <div class="overlay"> Arngreen <br> (Figma)
+                        </div> <!-- fim overlay-->
+                    </div>
+
+
+
+                </div> <!--fim flex-->
+                <div class="btn-vermais">
+                    <a href="https://github.com/larifsantos685?tab=repositories" target="_blank">
+                        <button>Ver mais <i class="fa-solid fa-chevron-right"></i></button>
+                    </a>
+                </div> <!-- div final btn contato-->
+            </div><!--fim interface -->
+        </section> <!--fim portifolio-->
+
+
+        <section class="formulario" id="contato">
+            <div class="interface">
+                <h2 class="titulo"> Fale <span> comigo </span></h2>
+
+                <form method="POST" action="https://formsubmit.co/larissafsantos.685@gmail.com">
+                    <input type="text" name="nome" id="nome" placeholder="Seu nome: *" required>
+                    <input type="email" name="email" id="email" placeholder="Seu email: *" required>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Seu telefone: ">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Sua mensagem: "></textarea>
+
+                    <div class="btn-enviar"><input type="submit" VALUE="Enviar"></div>
+
+
+
+                </form>
+
+            </div><!-- fim div interface-->
+        </section> <!-- fim formulario-->
+
+
+        <footer>
+            <div class="interface">
+                <div class="line-footer borda">
+                    <div class="flex">
+                        <div class="logo">
+                            <span class="principal"> Larissa <span style="color:blueviolet"> Santos </span></span>
+                            </span>
+                        </div> <!-- fim div logo-->
+                        <div class="btn-social">
+                            <a href="https://github.com/larifsantos685" target="_blank"><button><i
+                                        class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/larissafsantos685/" target="_blank"><button><i
+                                        class="bi bi-linkedin"></i></button></a>
+                            <a href="https://drive.google.com/file/d/1ViMX_xL49wis3LhWCXThub3qcJqjgCD7/view?usp=sharing"
+                                target="_blank"><button><i class="bi bi-file-earmark-text"></i></button></a>
+                        </div> <!-- fim btn-social -->
+                    </div><!--fim flex-->
+                </div> <!-- live-footer-->
+
+
+                <div class="line-footer">
+                    <p> <i class="bi bi-envelope"></i> <a
+                            href="mailto:larissafsantos.685@gmail.com">larissafsantos.685@gmail.com </a> </p>
+                </div> <!-- fim line footer-->
+            </div><!--fim interface-->
+        </footer>
+
+
+
+
+    </main>
+
+
+    <script>
+        window.addEventListener('scroll', function () {
+            let scroll = document.querySelector('.voltar-topo')
+            scroll.classList.toggle('active', window.scrollY > 450)
+        })
+
+        function backTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/efeito.js"></script>
+    <script src="js/modos.js"></script>
+
+
+</body>
+
+</html>
