@@ -50,7 +50,7 @@ export function Introduction() {
           <div className="text-4xl md:text-6xl font-bold text-white space-y-2">
             <p className="text-slate-400 text-2xl md:text-3xl">Olá, eu sou</p>
             <TypingAnimation 
-            words={['Larissa Fernanda.', 'Desenvolvedora Full Stack.']}
+            words={['Larissa Fernanda.', 'Desenvolvedora Full Stack.','Larissa Fernanda.']}
               className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400 leading-tight pb-2"
               duration={100}
             >
@@ -58,10 +58,7 @@ export function Introduction() {
           </div>
 
           <p className="text-lg text-slate-400 max-w-lg leading-relaxed md:mx-0 mx-auto">
-            Especialista em transformar café em código limpo com 
-            <span className="text-indigo-400 font-semibold"> Java</span>, 
-            <span className="text-red-400 font-semibold"> Laravel</span> e 
-            <span className="text-cyan-400 font-semibold"> React</span>.
+            Desenvolveodra Web formada em Tecnologia em Sistemas para internet, apaixonada por criar <span className="text-indigo-400 font-semibold"> soluções digitais </span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
