@@ -1,34 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Navbar } from "@/components/sections/Navbar"
+import { Introduction } from "@/components/sections/Introduction"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="min-h-screen bg-slate-950 text-slate-50 font-sans selection:bg-indigo-500/30">
+      
+      <Navbar />
+
+      <main className="flex flex-col items-center w-full pt-16">
+        
+        <div id="home" className="w-full">
+           <Introduction />
+        </div>
+        
+     
+        <div id="about" className="h-screen flex items-center justify-center border-t border-slate-900 w-full">
+          <h2 className="text-3xl font-bold text-slate-700">Sobre Mim (Em breve)</h2>
+        </div>
+
+      </main>
+    </div>
   )
 }
 
