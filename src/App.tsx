@@ -1,6 +1,8 @@
 import { Navbar } from "@/components/sections/Navbar";
 import { Introduction } from "@/components/sections/Introduction";
 import { About } from "./components/sections/About";
+import { Skills } from "./components/sections/Skills";
+import { Projects } from "./components/sections/Projects";
 
 function App() {
   return (
@@ -12,8 +14,24 @@ function App() {
           <Introduction />
         </div>
 
-        <div id="about"   className="w-full border-t border-slate-900 mt-8 md:mt-16">
+        <div
+          id="about"
+          className="w-full border-t border-slate-900 mt-8 md:mt-16"
+        >
           <About />
+        </div>
+
+        <div
+          id="skills"
+          className="w-full border-t border-slate-900 mt-8 md:mt-16"
+        >
+          <Skills />
+        </div>
+        <div
+          id="skills"
+          className="w-full border-t border-slate-900 mt-8 md:mt-16"
+        >
+          <Projects />
         </div>
       </main>
     </div>
