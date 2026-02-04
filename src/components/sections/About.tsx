@@ -13,11 +13,11 @@ import { useRef } from "react";
 
 export function About() {
   const photos = [
+    { src: "/foto-tcc-larissa.jpeg", alt: "Apresentação do TCC da faculdade" },
     {
       src: "/larissafoto.jpg",
       alt: "Foto de formatura no técnico Larissa Fernanda",
     },
-    { src: "/foto-tcc-larissa.jpeg", alt: "Apresentação Individual" },
     {
       src: "/foto-tcc-grupo.jpeg",
       alt: "Apresentação do TCC com orientador e equipe",
@@ -73,7 +73,7 @@ export function About() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.5 }}
           variants={fadeInUp}
-        className="text-center mb-8 md:mb-16"
+          className="text-center mb-8 md:mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white">
             Sobre <span className="text-indigo-400">Mim</span>
