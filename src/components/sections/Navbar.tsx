@@ -7,6 +7,7 @@ export function Navbar() {
         { name: "Sobre", href: "#about" },
         { name: "Skills", href: "#skills" },
         { name: "Projetos", href: "#projects" },
+        { name: "Experiências", href: "#experiences" },
     ]
 
     return (
