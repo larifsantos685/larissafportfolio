@@ -14,5 +14,5 @@ https://larifsantos685.github.io/larissafportfolio/
 
 ## 📂 Sobre o projeto
 Este projeto foi desenvolvido com foco em performance, organização de código
-e deploy contínuo utilizando GitHub Pages.
+e deploy utilizando GitHub Pages.
     Este repositório representa meu portfólio pessoal e está em constante evolução.
