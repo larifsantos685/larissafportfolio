@@ -62,9 +62,11 @@ export function Introduction() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+           <a href="#projects">
             <Button className="h-12 px-8 text-base bg-indigo-600 hover:bg-indigo-700 text-white">
               Ver Projetos
             </Button>
+            </a>
             <div className="flex gap-4 justify-center">
              <a href="https://github.com/larifsantos685" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline" className="h-12 w-12 p-0 border-slate-800 text-slate-200 hover:bg-slate-900 hover:text-white">
