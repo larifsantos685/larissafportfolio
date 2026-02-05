@@ -102,7 +102,7 @@ export function Introduction() {
             />
 
             <motion.img 
-              src="/larissafoto.jpg" 
+              src="larissafoto.jpg" 
               alt="Foto de Larissa"
               className="relative z-10 w-full h-full object-cover rounded-full border-4 border-slate-900 shadow-2xl"
               variants={containerVariants}

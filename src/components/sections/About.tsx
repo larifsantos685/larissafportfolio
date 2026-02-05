@@ -13,30 +13,30 @@ import { useRef } from "react";
 
 export function About() {
   const photos = [
-    { src: "/foto-tcc-larissa.jpeg", alt: "Apresentação do TCC da faculdade" },
+    { src: "foto-tcc-larissa.jpeg", alt: "Apresentação do TCC da faculdade" },
     {
-      src: "/larissafoto.jpg",
+      src: "larissafoto.jpg",
       alt: "Foto de formatura no técnico Larissa Fernanda",
     },
     {
-      src: "/foto-tcc-grupo.jpeg",
+      src: "foto-tcc-grupo.jpeg",
       alt: "Apresentação do TCC com orientador e equipe",
     },
-    { src: "/foto-tcc-tecnico.jpeg", alt: "Apresentação do TCC do Técnico" },
+    { src: "foto-tcc-tecnico.jpeg", alt: "Apresentação do TCC do Técnico" },
     {
-      src: "/foto-maratona.jpeg",
+      src: "foto-maratona.jpeg",
       alt: "Participando da Maratona de Programação",
     },
     {
-      src: "/foto-palestra-1.jpeg",
+      src: "foto-palestra-1.jpeg",
       alt: "Participando da palestra Build With AI - GDG Santos",
     },
     {
-      src: "/foto-palestra-2.jpeg",
+      src: "foto-palestra-2.jpeg",
       alt: "Participando da palestra Build With AI - GDG Santos",
     },
     {
-      src: "/foto-palestra-3.jpeg",
+      src: "foto-palestra-3.jpeg",
       alt: "Participando da palestra Women Techmakers - GDG Santos",
     },
   ];

@@ -92,7 +92,7 @@ export function Projects() {
       title: "StageConnect - Auxiliando sua jornada no mundo da tecnologia",
       description:
         "Plataforma web em Laravel desenvolvida como TCC, com autenticação, gestão de conteúdos, filtros por categorias e arquitetura preparada para produção.",
-      image: "/stageconnect-tela-index.png",
+      image: "stageconnect-tela-index.png",
       tags: [
         "Html",
         "Css",
@@ -113,7 +113,7 @@ export function Projects() {
       title: "Projeto CRUD de Salão de Beleza",
       description:
         "Sistema completo de gerenciamento de clientes desenvolvido em Java. Utiliza arquitetura MVC e renderização no servidor.",
-      image: "/tela-crud-java-salao.png",
+      image: "tela-crud-java-salao.png",
       tags: ["Html", "Css", "Java", "Spring Boot", "PostgreSQL"],
       links: {
         github: "https://github.com/larifsantos685/projetojava",
@@ -125,7 +125,7 @@ export function Projects() {
       title: "Transaction Service",
       description:
         "Sistema Full Stack de transações financeiras. Garante consistência e concorrência segura entre transferências de usuários e lojistas. Projeto educacional.",
-      image: "/tela-transaction-service.png",
+      image: "tela-transaction-service.png",
       tags: ["Java", "Spring Boot", "PostgreSQL", "React", "Docker"],
       links: {
         github: "https://github.com/larifsantos685/transaction-service",
@@ -137,7 +137,7 @@ export function Projects() {
       title: "Projeto simulação de cadastro em JavaScript",
       description:
         "Aplicação Front-end focada em manipulação do DOM e consumo de API (ViaCEP) para validação de formulários em tempo real.",
-      image: "/cadastro-javascript.png",
+      image: "cadastro-javascript.png",
       tags: ["Html", "Css", "JavaScript"],
       links: {
         github: "https://github.com/larifsantos685/projeto_cadastroJavascript",
@@ -149,7 +149,7 @@ export function Projects() {
       title: "Aumigos da Rua",
       description:
         "Projeto social e acadêmico para divulgação de ONGs e conscientização sobre abandono animal em Santos. Conectando mais as pessoas à causa.",
-      image: "/aumigos-da-rua.png",
+      image: "aumigos-da-rua.png",
       tags: ["Html", "Css", "JavaScript"],
       links: { github: "https://github.com/SenaNilo/Prj_AuMigos", demo: null },
       featured: false,
