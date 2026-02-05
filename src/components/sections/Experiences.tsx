@@ -64,7 +64,7 @@ export function Experiences() {
           className="text-center mb-16"
         >
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-            Minha <span className="text-indigo-400">Jornada</span>
+            Minha <span className="text-indigo-400">Jornada</span> e experiências.
           </h2>
           <p className="text-slate-400 max-w-2xl mx-auto">
             De estudante técnica a desenvolvedora.

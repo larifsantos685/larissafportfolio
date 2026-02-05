@@ -17,7 +17,7 @@ const navLinks = [
   { name: "Sobre", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Projetos", href: "#projects" },
-  { name: "Jornada", href: "#experience" },
+  { name: "Experiências", href: "#experience" },
 ];
 
 export function Navbar() {
