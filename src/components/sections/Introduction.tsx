@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin } from "lucide-react"
+import { FileText, Github, Linkedin } from "lucide-react"
 import { TypingAnimation } from "@/components/ui/typing-animation"
 import { motion } from "framer-motion"
 import type { Variants } from "framer-motion"
@@ -43,10 +43,6 @@ export function Introduction() {
       
       {/* Lado esquerdo */}
         <div className="flex-1 text-center md:text-left space-y-8 z-10">
-          <div className="inline-flex items-center rounded-full border border-indigo-500/30 bg-indigo-500/10 px-3 py-1 text-sm font-medium text-indigo-300">
-            🚀 Disponível para novas oportunidades
-          </div>
-
           <div className="text-4xl md:text-6xl font-bold text-white space-y-2">
             <p className="text-slate-400 text-2xl md:text-3xl">Olá, eu sou</p>
             <TypingAnimation 
@@ -58,7 +54,7 @@ export function Introduction() {
           </div>
 
           <p className="text-lg text-slate-400 max-w-lg leading-relaxed md:mx-0 mx-auto">
-            Desenvolveodra Web formada em Tecnologia em Sistemas para internet, apaixonada por criar <span className="text-indigo-400 font-semibold"> soluções digitais </span>
+            Desenvolvedora Web formada em Tecnologia em Sistemas para internet, apaixonada por criar <span className="text-indigo-400 font-semibold"> soluções digitais </span>
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
@@ -78,6 +74,12 @@ export function Introduction() {
                 <Button variant="outline" className="h-12 w-12 p-0 border-slate-800 text-slate-200 hover:bg-slate-900 hover:text-white">
                   <Linkedin className="h-5 w-5" />
                   <span className="sr-only">LinkedIn</span>
+                </Button>
+              </a>
+              <a href="/Curriculo_Larissa.pdf" target="_blank" rel="noopener noreferrer" title="Baixar Currículo">
+                <Button variant="outline" className="h-12 w-12 p-0 border-slate-800 text-slate-200 hover:bg-slate-900 hover:text-white">
+                  <FileText className="h-5 w-5" />
+                  <span className="sr-only">Currículo</span>
                 </Button>
               </a>
             </div>
